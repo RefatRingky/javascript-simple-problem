@@ -9,6 +9,12 @@
 // const output = Math.floor(myNumber);
 // console.log(output);
 
-const myNumber = 21.6666;
-const output = Math.round(myNumber);
-console.log(output);
+// const myNumber = 21.6666;
+// const output = Math.round(myNumber);
+// console.log(output);
+
+for(let i=0; i<=30;i++){
+    const output = Math.random()*6;
+    const rounded = Math.floor(output);
+    console.log(rounded);
+}
